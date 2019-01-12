@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Lifespan</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- load Material Parts -->
+    <link href="https://cdn.jsdelivr.net/gh/Daemonite/material@4.1.1/css/material.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <div class="container">
+    <br><br><br>
+    <div class="card text-center">
+    <div class="card-header">
+      <h3>Lifespan - 时光飞逝</h3>
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">请输入您的出生日期</h5>
+      <nav class="navbar navbar-light bg-light">
+        <input type="date" class="form-control mr-sm-2" type="search" placeholder="yyyy/mm/dd" id="birthdayInput" aria-describedby="birthdayHelp">
+      </nav>
+    <h5 class="card-title">预计可以活到的年龄</h5>
+    <nav class="navbar navbar-light bg-light">
+      <input type="number" class="form-control mr-sm-2" type="search" placeholder="90.2" id="lifeExpectancyInput" min="1" max="200000" aria-describedby="lifeExpectancyHelp">
+    </nav>
+
+      <p class="card-text">请放心，我们不会以任何形式存储您的数据</p>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div id="predictions" style="text-align:center;padding-top:1rem;"></div>
+        </div>
+    </div>
+    <div class="card-footer text-muted">
+      Made With ❤ <a href="https://www.nothamor.cn/">欧尼酱</a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>
