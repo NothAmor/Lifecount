@@ -27,10 +27,10 @@
 
 
 ## Auther
-作者：Harold Finch
+作者：NothAmor
 
 博客：[欧尼酱][3]
 
   [3]: https://www.nothamor.cn
 
-邮箱：finch@finch.gq
+邮箱：i@nothamor.cn
