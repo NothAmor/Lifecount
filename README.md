@@ -18,14 +18,6 @@
 ## How To Use?
 项目包含的文件很少，只需要上传全部文件至web目录即可
 
-
-## TODO
-自适应移动端
-
-推出移动端APP
-
-
-
 ## Auther
 作者：NothAmor
 
